@@ -78,7 +78,7 @@ export default () => {
           <h1>Schedule</h1>
         </div>
         <div className={styles.content}>
-          <a href="src/images/schedule.png" target="_blank">
+          <a href="https://drive.google.com/open?id=1kvFIQ0EVfDSN-2LLb6lHQ83kx9bBARqD" target="_blank">
             Tentative schedule
           </a>
         </div>
