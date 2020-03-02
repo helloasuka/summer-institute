@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* variables are set up at the root so they can be used throughout the whole project */
+:root{
+    --mainGrey: #f5f5f5;
+    --mainWhite: #fff;
+    --mainBlack: #3f3f3f;
+    --darkGrey: #8e8e8e;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background: var(--mainGrey);
+    color: var(--mainBlack);
+}
