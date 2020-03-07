@@ -6,9 +6,6 @@ const workshopsCall = () => {
   return (
     <Layout>
       <section className={styles.template}>
-        <div className={styles.info}>
-          <h1>About</h1>
-        </div>
         <div className={styles.content}>
           <p>
             We are looking for hands-on workshops that will complement the
@@ -38,7 +35,7 @@ const workshopsCall = () => {
             including how long it will be (3h or 6h).
           </p>
 
-          <h1>Deadline March 13th, 2020</h1>
+          <h1>Deadline March 22, 2020</h1>
         </div>
       </section>
     </Layout>

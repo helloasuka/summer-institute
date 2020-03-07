@@ -5,6 +5,7 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Image from "gatsby-image"
 import Layout from "../components/layout"
+
 const PostTemplate = ({ data }) => {
   const { title, date, author, image } = data.mdx.frontmatter
   const { body } = data.mdx

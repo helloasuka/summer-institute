@@ -3,20 +3,18 @@ import "./layout.css"
 import styles from "../css/postlist.module.css"
 import styles2 from "../css/postcard.module.css"
 import { Link } from "gatsby"
+import logo from "../images/logo.png"
 
 const layout = ({ children }) => {
   return (
     <>
       <main>
+      <div className={styles.center}>
+        <a href="/">
+        <img src={logo} alt="Logo" width="100%" max-width="400px" height="auto" />
+        </a>
+        </div>
         <section className={styles.posts}>
-          <h1>
-            Digital Media Summer Institute 2020 - Human-
-            <strike>computer</strike> Interactions
-          </h1>
-          <h4>
-            Questioning and defining the (new) role(s) of computation on the
-            mediation of Human Interactions
-          </h4>
           <h5>13-16 July // iNOVA Media Lab @ Lisbon, Portugal</h5>
         </section>
 
@@ -24,11 +22,11 @@ const layout = ({ children }) => {
           <Link to="/" className={styles2.link}>
             Home
           </Link>
-          <Link to="./blog" className={styles2.link}>
-            Blog
-          </Link>
           <Link to="./workshops-call" className={styles2.link}>
             Workshops - Call
+          </Link>
+          <Link to="./blog" className={styles2.link}>
+            Blog
           </Link>
         </div>
 

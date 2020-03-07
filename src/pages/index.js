@@ -2,12 +2,20 @@ import React from "react"
 import Layout from "../components/layout"
 import styles from "../css/postTemplate.module.css"
 
-export default () => {
+
+export default ({ data }) => {
   return (
     <Layout>
       <section className={styles.template}>
         <div className={styles.info}>
-          <h1>About</h1>
+        <h1>
+            Digital Media Summer Institute 2020 - Human-
+            <strike>computer</strike> Interactions
+          </h1>
+          <h4>
+            Questioning and defining the (new) role(s) of computation on the
+            mediation of Human Interactions
+          </h4>
         </div>
         <div className={styles.content}>
           <p>
