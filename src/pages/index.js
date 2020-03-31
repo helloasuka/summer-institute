@@ -19,15 +19,13 @@ export default ({ data }) => {
         </div>
         <div className={styles.content}>
           <p>
-            The Digital Media Summer Institute is an immersive 4-day event aimed
+            The Digital Media Summer Institute is an <b>online immersive 4-day event</b> aimed
             at the collaborative development of research projects. A small group
             of Ph.D. students and candidates will be selected to participate in
-            this program, where four leading international researchers will
+            this program where four leading international researchers will
             tutor them, providing guidance and valuable insights into their
-            research. Each day, the program will begin with a keynote, followed
-            by various hands-on workshops and time to work on the research
-            projects. At the end of the day, the participants will have
-            one-on-one time on a private session with the tutors.
+            research. Each day, the program will begin with an online keynote. The keynotes are open to the general public, but there will be limited places, and previous registration is mandatory. Participants of the summer institute will be guaranteed a spot.
+            During the day, participants will have one-on-one time on a private session with the tutors where they will receive guidance on their projects. Group chats and activities with the participants will also take place during these 4 days.
           </p>
           <p>
             Participants (applicants should be Ph.D. students or candidates)
@@ -41,14 +39,7 @@ export default ({ data }) => {
             instructors.
           </p>
           <p>
-            The Summer Institute will take place at iNOVA Media Lab, a lab that
-            brings together researchers and practitioners working at the
-            intersections of digital media arts, sciences, and technologies.
-            Participants will have a plethora of materials and gadgets available
-            to them (see below), plus a brand new recording studio.
-          </p>
-          <p>
-            We look forward to welcoming you to the beautiful and sunny Lisbon!
+            The Summer Institute will be 100% online. Details on the technologies used and schedule will be shared in due time with the participants. 
           </p>
         </div>
 
@@ -81,26 +72,15 @@ export default ({ data }) => {
         <div className={styles.content}>
           <p>TBA</p>
         </div>
-
-        <div className={styles.info}>
-          <h1>Schedule</h1>
-        </div>
-        <div className={styles.content}>
-          <a href="https://drive.google.com/open?id=1kvFIQ0EVfDSN-2LLb6lHQ83kx9bBARqD" target="_blank">
-            Tentative schedule
-          </a>
-        </div>
-
         <div className={styles.info}>
           <h1>Application Fee</h1>
         </div>
         <div className={styles.content}>
           <p>
-            The registration fees for the immersive Summer Institute will be 400
+            The registration fees for the immersive Summer Institute will be 200
             euros.
           </p>
         </div>
-
         <div className={styles.info}>
           <h1>Application</h1>
         </div>
@@ -135,9 +115,8 @@ export default ({ data }) => {
         </div>
         <div className={styles.content}>
           <ul>
-            <li>April 8th, 2020: Application deadline</li>
-            <li>April 16th, 2020: Notification of acceptance</li>
-            <li>April 30th, 2020: Deadline for registration </li>
+            <li>April 30, 2020: Application deadline</li>
+            <li>May 3, 2020: Notification of acceptance</li>
           </ul>
         </div>
 

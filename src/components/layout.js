@@ -1,9 +1,10 @@
 import React from "react"
 import "./layout.css"
 import styles from "../css/postlist.module.css"
-import styles2 from "../css/postcard.module.css"
-import { Link } from "gatsby"
+/* import styles2 from "../css/postcard.module.css"
+import { Link } from "gatsby" */
 import logo from "../images/logo.png"
+
 
 const layout = ({ children }) => {
   return (
@@ -15,10 +16,14 @@ const layout = ({ children }) => {
         </a>
         </div>
         <section className={styles.posts}>
-          <h5>13-16 July // iNOVA Media Lab @ Lisbon, Portugal</h5>
+          <h1>13-16 July</h1>
+          <br/>
+          <br/>
+          <h4>scroll down</h4>
+          <h4>▼</h4>
         </section>
 
-        <div className={styles.center}>
+        {/* <div className={styles.center}>
           <Link to="/" className={styles2.link}>
             Home
           </Link>
@@ -28,7 +33,7 @@ const layout = ({ children }) => {
           <Link to="./blog" className={styles2.link}>
             Blog
           </Link>
-        </div>
+        </div> */}
 
         {children}
 
